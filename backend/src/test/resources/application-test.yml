@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:tc:postgis:15-3.3:///testdb?TC_INITSCRIPT=init_postgis.sql
+    username: test
+    password: test
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.spatial.dialect.postgis.PostgisPG95Dialect
