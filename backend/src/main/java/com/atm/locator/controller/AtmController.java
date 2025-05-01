@@ -5,8 +5,10 @@ import com.atm.locator.service.AtmService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
-@RequestMapping("/api/atm")
+@RequestMapping("/api/atms")
 @RequiredArgsConstructor
 public class AtmController {
 
@@ -16,4 +18,11 @@ public class AtmController {
     public Atm getNearestATM(@RequestParam double lat, @RequestParam double lon) {
         return atmService.findNearestAtm(lat, lon);
     }
+
+    @GetMapping
+    public List<Atm> getAllAtms() {
+        return atmService.getAllAtms();
+    }
+
+
 }

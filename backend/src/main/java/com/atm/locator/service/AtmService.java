@@ -5,6 +5,8 @@ import com.atm.locator.repository.AtmRepository;
 import org.springframework.stereotype.Service;
 import lombok.RequiredArgsConstructor;
 
+import java.util.List;
+
 @Service
 @RequiredArgsConstructor
 public class AtmService {
@@ -15,4 +17,9 @@ public class AtmService {
         return atmRepository.findNearestAtm(userLat, userLon)
                 .orElseThrow(() -> new RuntimeException("No ATMs found"));
     }
+
+    public List<Atm> getAllAtms() {
+        return atmRepository.findAll();
+    }
+
 }
