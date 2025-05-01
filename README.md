@@ -19,3 +19,18 @@ As a user, I want to get directions to the selected ATM so that I can navigate e
 ## 5. Report Incorrect or Outdated ATM Information
 
 As a user, I want to report incorrect or outdated ATM information so that other users get accurate data.
+
+## How to setup
+
+Copy the repo into your local machine
+```bash
+git clone https://github.com/IliyaBaranov/ProjectMainorWebApp
+```
+In terminal paste
+```bash
+docker-compose up --build
+```
+Then in browser
+```bash
+http://localhost:3000/
+```
