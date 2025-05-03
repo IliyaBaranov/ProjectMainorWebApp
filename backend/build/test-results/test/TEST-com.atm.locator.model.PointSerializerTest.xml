@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.atm.locator.model.PointSerializerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-05-03T10:13:36.485Z" hostname="DESKTOP-363N1H8" time="0.331">
+  <properties/>
+  <testcase name="testSerialize_validPoint()" classname="com.atm.locator.model.PointSerializerTest" time="0.331"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

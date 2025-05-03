@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.atm.locator.service.AtmServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-05-03T10:13:36.895Z" hostname="DESKTOP-363N1H8" time="0.009">
+  <properties/>
+  <testcase name="testFindNearestAtm_noResult_throwsException()" classname="com.atm.locator.service.AtmServiceTest" time="0.006"/>
+  <testcase name="testGetAllAtms_returnsList()" classname="com.atm.locator.service.AtmServiceTest" time="0.0"/>
+  <testcase name="testFindNearestAtm_returnsAtm()" classname="com.atm.locator.service.AtmServiceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
