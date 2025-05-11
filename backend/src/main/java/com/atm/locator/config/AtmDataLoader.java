@@ -27,7 +27,7 @@ public class AtmDataLoader implements CommandLineRunner {
         var resource = new ClassPathResource("estonian_atms.csv");
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(resource.getInputStream(), StandardCharsets.UTF_8))) {
             String line;
-            reader.readLine(); // skip header
+            reader.readLine();
 
             while ((line = reader.readLine()) != null) {
                 String[] parts = line.split(";");

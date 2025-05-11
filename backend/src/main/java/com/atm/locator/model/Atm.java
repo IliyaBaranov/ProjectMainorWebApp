@@ -23,6 +23,6 @@ public class Atm {
     private String name;
 
     @Column(nullable = false, columnDefinition = "geometry(Point, 4326)")
-    @JsonSerialize(using = PointSerializer.class)  // Apply the custom serializer here
-    private Point location; // This will store lat/lon as a geometric point
+    @JsonSerialize(using = PointSerializer.class)
+    private Point location;
 }

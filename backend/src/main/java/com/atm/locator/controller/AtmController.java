@@ -24,5 +24,4 @@ public class AtmController {
         return atmService.getAllAtms();
     }
 
-
 }
